@@ -25,4 +25,8 @@ public class OfflineMapApp extends PApplet {
 		map.draw();
 	}
 
+	static public void main(String args[]) {
+		PApplet.main(new String[] { "OfflineMapApp" });
+	}
+
 }
